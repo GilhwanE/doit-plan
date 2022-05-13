@@ -1,3 +1,4 @@
+/* Input  */
 .input {
   display: flex;
   align-items: center;
@@ -43,4 +44,67 @@
 .input__submit:active {
   transform: scale(0.8);
   box-shadow: 0 0 5px #000;
+}
+
+/* TO-DOS */
+.todos {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+
+  width: 90%;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.todos__single {
+  display: flex;
+  width: 29.5%;
+  margin: 20px 0;
+  padding: 15px 10px;
+  border-radius: 6px;
+  background-image: url('https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg');
+}
+
+.todos__single--text {
+  font-size: 2rem;
+  flex: 1;
+  padding-left: 15px;
+  border: none;
+}
+
+.todos__single--text:focus {
+  outline: none;
+}
+
+.icon__list {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  position: relative;
+  top: 5px;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #000;
+}
+
+@media screen and (max-width: 1200px) {
+  .todos__single {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .input {
+    width: 95%;
+  }
+  .todos {
+    width: 95%;
+  }
+  .todos__single {
+    width: 95%;
+  }
 }
