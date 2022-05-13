@@ -7,7 +7,7 @@ interface Props {
   handleAdd: (e: React.FormEvent) => void; // 아무것도 반환하지 않는다.
 }
 
-const InputFelid = ({ todo, setTodo, handleAdd }: Props) => {
+const InputFelid: React.FC<Props> = ({ todo, setTodo, handleAdd }) => {
   const inputRef = useRef<HTMLInputElement>(null);
   return (
     <form
