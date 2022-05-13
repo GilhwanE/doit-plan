@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dongle&family=Jua&display=swap');
 
+/* reset */
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+* {
+  line-height: 1;
+}
+
 body {
   box-sizing: border-box;
   font-size: 16px;
