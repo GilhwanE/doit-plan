@@ -2,7 +2,6 @@ import React, { ReactHTML, useEffect, useRef, useState } from 'react';
 import { Todo } from '../modle';
 import { Draggable } from 'react-beautiful-dnd';
 import { AiFillEdit, AiFillDelete, AiFillCheckSquare } from 'react-icons/ai';
-import ToDoList from './ToDoList';
 
 type Props = {
   index: number;
