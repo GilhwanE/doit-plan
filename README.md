@@ -1,10 +1,12 @@
-## TS & REACT Project
+## 🧑🏻‍💻 TS & REACT Project
 
-### Do it Plan
+### 📝 Project-Name : Do it Plan
+
 
 #### URL : https://tranquil-alfajores-ebe2ce.netlify.app
-#### Skills : React + Typescript
-#### publish : netlify
+
+#### 🛠 Technical Stack
+####  React + Typescript , netlify
 
 ---
 
