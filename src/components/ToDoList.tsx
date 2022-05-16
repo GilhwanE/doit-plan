@@ -1,7 +1,7 @@
 import React from 'react';
 import { Droppable } from 'react-beautiful-dnd';
 import { Todo } from '../modle';
-import SingleTodo from './singleTodo';
+import SingleTodo from './SingleTodo';
 
 import './style.css';
 
