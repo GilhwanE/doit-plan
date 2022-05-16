@@ -1,4 +1,4 @@
-## 🧑🏻‍💻 TS & REACT Project
+# 🧑🏻‍💻 TYPESCRIPT & REACT Project
 
 ### 📝 Project-Name : Do it Plan
 
